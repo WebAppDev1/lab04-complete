@@ -1,0 +1,28 @@
+<table class="ui fixed striped table">
+  <thead>
+    <tr>
+      <th>Song</th>
+      <th>Artist</th>
+      <th>Genre</th>
+      <th>Duration</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each songs}}
+      <tr>
+        <td>
+          {{title}}
+        </td>
+        <td>
+          {{artist}}
+        </td>
+        <td>
+          {{genre}}
+        </td>
+        <td>
+          {{duration}}
+        </td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>
