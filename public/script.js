@@ -4,6 +4,7 @@
 // prints "hi" in the browser's dev tools console
 console.log("Hello from the Web App Dev 1 lab!");
 
+
 const greenbtn = document.querySelector(".green");
 
 greenbtn &&
@@ -38,8 +39,7 @@ redbtn &&
 welcomeUserDiv &&
   welcomeUserDiv.addEventListener("click", (evt) => {
    // evt.currentTarget.style.display = "none";
-    welcomeUserDiv.style.display = "none";
-  });
+
 
 const yellowbtn  = document.querySelector(".yellow");
 
