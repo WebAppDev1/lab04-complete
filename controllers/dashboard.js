@@ -1,8 +1,8 @@
 'use strict';
 
 // import all required modules
-const logger = require('../utils/logger');
-const playlistStore = require('../models/playlist-store.js');
+import logger from '../utils/logger.js';
+import playlistStore from '../models/playlist-store.js';
 
 // create dashboard object
 const dashboard = {
@@ -26,4 +26,4 @@ const dashboard = {
 };
 
 // export the dashboard module
-module.exports = dashboard;
+export default dashboard;
