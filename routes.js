@@ -1,13 +1,13 @@
 'use strict';
 
 // import express and initialise router
-const express = require('express');
+import express from 'express';
 const router = express.Router();
 
 // import controllers
-const start = require('./controllers/start.js');
-const dashboard = require('./controllers/dashboard.js');
-const about = require('./controllers/about.js');
+import start from './controllers/start.js';
+import dashboard from './controllers/dashboard.js';
+import about from './controllers/about.js';
 
 // connect routes to controllers
 router.get('/', start.index);
@@ -15,4 +15,4 @@ router.get('/dashboard', dashboard.index);
 router.get('/about', about.index);
 
 // export router module
-module.exports = router;
+export default router;
